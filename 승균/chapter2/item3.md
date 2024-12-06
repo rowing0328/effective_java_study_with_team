@@ -30,8 +30,9 @@ public class Elvis {
 ````
 - API를 바꾸지 않고 싱글턴아니게 변경 가능 
 - 팩터리 메서드가 스레드 별로 다른 인스턴스를 넘겨주게 할 수 있음. 
-- 정적 팩터리의 메소드 참조를 공급자로 사용할 수 있다. => 무슨 의미인지 잘 모르겠음
+- 정적 팩터리의 메소드 참조를 공급자로 사용할 수 있다.
   Supplier<Elvis> elvisSupplier = Elvis::getInstance;
+
 2. 대부분 상황에서는 원소가 하나뿐인 열거 타입이 싱글턴을 만드는 가장 좋은 방법임. 
 ```java
 public enum Elvis {
