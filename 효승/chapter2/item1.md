@@ -2,7 +2,7 @@
 
 ## 아이템 1 - 생성자 대신 정적 팩터리 메서드를 고려하라
 
-```
+```java
 // 생성자를 사용하는 경우
 new Member("hyoseung", MemberType.ADMIN); // true가 뭘 의미하는지 모호하다.
 
@@ -24,7 +24,7 @@ User user = User.createAdminUser(); // 관리자 생성임을 바로 알 수 있
 
 <br>
 
-```
+```java
 // Singleton pattern - Single Object
 class ConnectionManager {
 
@@ -72,7 +72,7 @@ class Icon {
 
 <br>
 
-```
+```java
 // 인터페이스 정의
 interface MemberRepository {
 
@@ -136,7 +136,7 @@ public class Main {
 
 <br>
 
-```
+```java
 @Bean
 public PasswordEncoder passwordEncoder() {
     // 실제 구현체는 런타임 시점에 결정됨
