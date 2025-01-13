@@ -1,3 +1,12 @@
-# Effective_Java_Study
+## 📖 item 제목
 
-- Effective Java Study 공부 기록을 저장하는 Repository입니다!
+### 핵심 내용
+
+## 💡 주요 내용 정리 & 🛠️ 실습 코드
+- 주요 내용 정리
+
+## 추가 강의 내용 정리
+
+## 🤔 생각 정리
+- 궁금한 점, 논의하고 싶은 내용
+
